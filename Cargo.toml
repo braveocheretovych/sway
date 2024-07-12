@@ -34,22 +34,22 @@ exclude = [
 
 [workspace.dependencies]
 # Dependencies from the `fuel-core` repository:
-fuel-core-client = { version = "0.28.0", default-features = false }
-fuel-core-types = { version = "0.28.0", default-features = false }
+fuel-core-client = { version = "0.31.0", default-features = false }
+fuel-core-types = { version = "0.31.0", default-features = false }
 
 # Dependencies from the `fuel-vm` repository:
-fuel-asm = "0.52.0"
-fuel-crypto = "0.52.0"
-fuel-types = "0.52.0"
-fuel-tx = "0.52.0"
-fuel-vm = "0.52.0"
+fuel-asm = "0.55.0"
+fuel-crypto = "0.55.0"
+fuel-types = "0.55.0"
+fuel-tx = "0.55.0"
+fuel-vm = "0.55.0"
 
 # Dependencies from the `fuels-rs` repository:
 fuels-core = { git = "https://github.com/FuelLabs/fuels-rs", branch = "hal3e/new-fuel-abi-spec" }
 fuels-accounts = { git = "https://github.com/FuelLabs/fuels-rs", branch = "hal3e/new-fuel-abi-spec" }
 
 # Dependencies from the `forc-wallet` repository:
-forc-wallet = "0.8.1"
+forc-wallet = { git = "https://github.com/FuelLabs/forc-wallet", branch = "esdrubal/abi_changes" }
 
 # Dependencies from the `fuel-abi-types` repository:
 fuel-abi-types = "0.6.0"
